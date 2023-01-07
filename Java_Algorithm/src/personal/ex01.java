@@ -36,7 +36,6 @@ public class ex01 {
          }
          System.out.println();
       }
-      
       System.out.println("종료되었습니다.");
    }
 }
