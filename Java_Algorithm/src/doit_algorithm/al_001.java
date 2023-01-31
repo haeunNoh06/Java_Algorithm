@@ -2,7 +2,7 @@ package doit_algorithm;
 
 import java.util.Scanner;
 
-public class Sum_001 {
+public class al_001 {
 
 	public static void main(String[] args) {
 		

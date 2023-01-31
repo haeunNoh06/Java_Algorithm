@@ -2,7 +2,7 @@ package doit_algorithm;
 
 import java.util.Scanner;
 
-public class average002 {
+public class al_002 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

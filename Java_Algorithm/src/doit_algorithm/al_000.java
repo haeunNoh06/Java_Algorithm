@@ -2,7 +2,7 @@ package doit_algorithm;
 
 import java.util.Scanner;
 
-public class Sort_01 {
+public class al_000 {
 
 	public static void main(String[] args) {
 
