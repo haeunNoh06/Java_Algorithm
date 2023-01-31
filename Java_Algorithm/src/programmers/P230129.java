@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.Arrays;
 
-public class p0129 {
+public class P230129 {
 
 	public String solution(String s) {
 
@@ -12,7 +12,7 @@ public class p0129 {
 	}
 
 	public static void main(String[] args) {
-		p0129 p = new p0129();
+		P230129 p = new P230129();
 		System.out.println(p.solution("Zbcdefg"));
 	}
 
