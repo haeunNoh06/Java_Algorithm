@@ -19,5 +19,4 @@ public class P230125 {
 		int[][] test = {{60, 50}, {30, 70}, {60, 30}, {80, 40}};
 		System.out.println(p.solution(test));
 	}
-
 }
