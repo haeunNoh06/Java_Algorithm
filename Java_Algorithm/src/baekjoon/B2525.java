@@ -1,25 +1,16 @@
 package baekjoon;
 
 import java.util.Scanner;
-import java.util.Calendar;
-class B2525{
+
+class B2525 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        Calendar today = Calendar.getInstance();
+        int A = scan.nextInt();
+        int B = scan.nextInt();
+        int C = scan.nextInt();// 요리에 필요한 시간(necessary)
         
-        int minute = today.get(Calendar.MINUTE);
-        int hour = today.get(Calendar.HOUR_OF_DAY);
-        System.out.println(hour+" "+minute);
-        int necTime = scan.nextInt();// 요리에 필요한 시간(necessary)
-        
-        if ( (necTime+minute) >= 60) {
-            hour += (necTime+minute)/60;
-            if (hour == 24)
-                hour = 0;
-            minute = (necTime+minute)%60;
-        } else {
-            minute += necTime;
-        }
-        System.out.println(hour+" "+minute);
+        int minute = A*60+B+C;// 시로 변환
+        int hour = (minute/60)%24;
+        System.out.println(hour+" "+minute%60);
     }
 }
