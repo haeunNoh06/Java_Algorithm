@@ -2,12 +2,11 @@ package baekjoon;
 
 import java.util.Scanner;
 
-public class b10998 {
+public class B10926 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         
-        int num;
-        num = scan.nextInt();
-        System.out.println(num*scan.nextInt());
+        String id = scan.next();
+        System.out.println(id+"??!");
     }
 }
