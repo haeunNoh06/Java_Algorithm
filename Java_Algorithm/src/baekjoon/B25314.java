@@ -11,4 +11,5 @@ public class B25314 {
         }
         System.out.println("long int");
     }
+    
 }
